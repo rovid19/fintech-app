@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@theme {
+  --color-brand-dark: #252b64;
+  --color-brand-primary: #252b64;
+  --color-brand-accent: #bbfd50;
+  --color-brand-secondary: #7c86f7;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
