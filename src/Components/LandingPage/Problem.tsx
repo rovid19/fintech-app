@@ -1,4 +1,4 @@
-import { Mail, Clock, Shield, FileX, Bell } from "lucide-react";
+import { Mail, Clock, Shield, FileX } from "lucide-react";
 
 const Problem = () => {
   const problems = [

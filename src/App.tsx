@@ -1,7 +1,5 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Hero from "./Components/LandingPage/Hero/Hero";
-import Navbar from "./Components/Navbar";
 import Problem from "./Components/LandingPage/Problem";
 import Rješenje from "./Components/LandingPage/Rješenje";
 import Cjenik from "./Components/LandingPage/Cjenik";

@@ -1,12 +1,4 @@
-import {
-  Shield,
-  Globe,
-  CheckCircle,
-  Award,
-  Users,
-  Zap,
-  Bell,
-} from "lucide-react";
+import { Shield, Globe, CheckCircle, Award, Users, Zap } from "lucide-react";
 
 const Trust = () => {
   const trustFactors = [

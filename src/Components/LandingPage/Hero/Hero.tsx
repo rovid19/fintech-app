@@ -15,7 +15,6 @@ import {
   ShieldCheck,
   Zap,
   ArrowRight,
-  PlayCircle,
   FileCheck2,
   Globe,
   TrendingUp,

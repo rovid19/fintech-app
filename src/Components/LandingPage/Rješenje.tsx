@@ -1,12 +1,4 @@
-import {
-  FileText,
-  Archive,
-  TrendingUp,
-  Shield,
-  Zap,
-  Bell,
-  CheckCircle,
-} from "lucide-react";
+import { FileText, Archive, TrendingUp, Bell, CheckCircle } from "lucide-react";
 
 const Rješenje = () => {
   const solutions = [

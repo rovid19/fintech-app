@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { X, Mail, Zap, Gift, Clock, CheckCircle } from "lucide-react";
+import { X, Mail, Zap, Gift, CheckCircle } from "lucide-react";
 
 interface EmailCollectorProps {
   isOpen: boolean;
