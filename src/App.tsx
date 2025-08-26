@@ -6,6 +6,7 @@ import Cjenik from "./Components/LandingPage/Cjenik";
 import Trust from "./Components/LandingPage/Trust";
 import FAQ from "./Components/LandingPage/FAQ";
 import Footer from "./Components/LandingPage/Footer";
+import { Navbar } from "./Components/ui/mini-navbar";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           "Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
       }}
     >
+      <Navbar />
       <Routes>
         <Route
           path="/"

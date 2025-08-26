@@ -33,7 +33,7 @@ const Problem = () => {
   ];
 
   return (
-    <section className="relative overflow-hidden py-20 lg:py-28">
+    <section id="problem" className="relative overflow-hidden py-20 lg:py-28">
       {/* Background elements */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute top-1/4 -right-32 w-[400px] h-[400px] bg-brand-secondary/15 blur-[100px] rounded-full"></div>
