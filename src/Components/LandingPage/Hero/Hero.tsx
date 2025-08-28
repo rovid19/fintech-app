@@ -23,9 +23,6 @@ import {
   CheckCircle2,
   QrCode,
   Send,
-  Lock,
-  Server,
-  Scale,
 } from "lucide-react";
 
 Chart.register(
