@@ -148,7 +148,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 ">
           <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-tight text-slate-100 leading-[1.05]">
               Spremni za{" "}
@@ -158,8 +158,9 @@ const Hero = () => {
               – 1.1.2026.
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-slate-400/90">
-              Izdavanje i zaprimanje e‑računa, digitalna arhiva i potpuni uvid u
-              poslovanje – bez dodatnih troškova knjigovođe.
+              Kontira je platfroma koja olakšava izdavanje i zaprimanje
+              e‑računa, digitalna arhiva i potpuni uvid u poslovanje – bez
+              dodatnih troškova knjigovođe.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:items-center">
@@ -317,21 +318,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="mt-12 flex flex-wrap items-center gap-6 text-xs text-slate-400">
-          <div className="inline-flex items-center gap-2">
-            <Lock className="w-4 h-4 text-brand-secondary" />
-            Šifriranje 256‑bit
-          </div>
-          <div className="inline-flex items-center gap-2">
-            <Server className="w-4 h-4 text-brand-secondary" />
-            EU podatkovni centri
-          </div>
-          <div className="inline-flex items-center gap-2">
-            <Scale className="w-4 h-4 text-brand-secondary" />
-            Usklađeno s regulativom
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ const AnimatedNavLink = ({
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [headerShapeClass, setHeaderShapeClass] = useState("rounded-full");
-  const shapeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const shapeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const { handleNavigate } = useNavigate();
   const toggleMenu = () => {
     setIsOpen(!isOpen);

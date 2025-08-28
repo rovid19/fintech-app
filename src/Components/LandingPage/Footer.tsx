@@ -28,9 +28,7 @@ const Footer = () => {
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-brand-secondary to-brand-accent flex items-center justify-center">
                 <Shield className="w-4 h-4 text-slate-950" />
               </div>
-              <span className="text-xl font-bold text-slate-100">
-                Fiskalizacija 2.0
-              </span>
+              <span className="text-xl font-bold text-slate-100">Kontira</span>
             </div>
 
             <p className="text-slate-400 mb-6 max-w-md">
